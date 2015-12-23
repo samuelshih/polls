@@ -1,3 +1,9 @@
+# Package Info
+1. In __django/polls__ build with `python setup.py sdist`
+2. This creates the directory __dist__ and builds the new package __django-polls-0.1.tar.gz__
+3. To install the package: `pip install --user django-polls/dist/django-polls-0.1.tar.gz`
+4. To uninstall: `pip uninstall django-polls`
+
 ## Updating Models, Migrations
 1. Update models in `models.py`
 2. `python manage.py makemigrations` to create migrations for those changes
